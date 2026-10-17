@@ -1,0 +1,12 @@
+{
+  "name": "Tuxie Music Player",
+  "short_name": "Tuxie",
+  "description": "Your music, beautifully close.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#050305",
+  "theme_color": "#9D001C",
+  "icons": [
+    { "src": "./assets/branding/tuxie-app-icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}

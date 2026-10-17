@@ -1,0 +1,23 @@
+{
+  "name": "tuxie-music-player",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Offline-first Tuxie Music Player, packaged for Android with Capacitor.",
+  "scripts": {
+    "test": "node --test tests/**/*.test.cjs",
+    "prepare:web": "node scripts/prepare-web.mjs",
+    "android:add": "npm run prepare:web && cap add android && npm run android:branding",
+    "android:branding": "node scripts/apply-android-branding.mjs",
+    "android:sync": "npm run prepare:web && cap sync android && npm run android:branding",
+    "android:open": "cap open android",
+    "android:debug": "cap run android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.4.3",
+    "@capacitor/core": "^7.4.3",
+    "@capacitor/splash-screen": "^7.0.2"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^7.4.3"
+  }
+}

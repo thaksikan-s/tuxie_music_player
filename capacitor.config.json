@@ -1,0 +1,22 @@
+{
+  "appId": "com.tuxie.musicplayer",
+  "appName": "Tuxie Music Player",
+  "webDir": "www",
+  "server": {
+    "androidScheme": "https"
+  },
+  "android": {
+    "allowMixedContent": false,
+    "captureInput": true
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 1800,
+      "launchAutoHide": true,
+      "backgroundColor": "#070709",
+      "androidScaleType": "CENTER_INSIDE",
+      "showSpinner": false,
+      "splashImmersive": true
+    }
+  }
+}

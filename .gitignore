@@ -1,0 +1,16 @@
+.env
+.env.*
+!.env.example
+/Convx-main/
+release/windows/*.exe
+release/windows/*.msix
+release/windows/*.msixbundle
+release/android/*.apk
+release/android/*.aab
+release/ios/*.ipa
+node_modules/
+www/
+android/.gradle/
+android/build/
+android/app/build/
+android/capacitor-cordova-android-plugins/build/
